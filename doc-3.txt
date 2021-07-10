@@ -14,3 +14,4 @@ this one, so that all commits made under this branch remain only here.
 If you want to see a locally made branch show up in the remote 
 repository, push it to the repo (Ex: git push origin dev1).
 
+(This document is outdatted. Checkout dev2 for the most up-to-date version)
