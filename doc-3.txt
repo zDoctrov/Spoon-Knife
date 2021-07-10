@@ -11,6 +11,6 @@ git branch <New branch name> --> Creates a new branch (Locally)
 git checkout <branch name> --> Change your current branch into 
 this one, so that all commits made under this branch remain only here.
 
-If you want to see a locally made branch show up in the remote repo.,
-make sure to checkout the new branch, add & commit, and then push
-it to the repo (Ex: git push origin dev1)
+If you want to see a locally made branch show up in the remote 
+repository, push it to the repo (Ex: git push origin dev1).
+
