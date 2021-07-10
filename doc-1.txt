@@ -1,5 +1,9 @@
 This is a new document that wasn't originally in the 
-"Spoon-Knife" repository.
+"Spoon-Knife" repository. 
+
+***It outlines the git workflow of creating local changes
+and uploading them to a remote repository 
+(LOCAL MACHINE --> REMOTE REPOSITORY)
 
 git clone --> Get your own copy of the repository by copying and pasting "git@github.com:zDoctrov/Spoon-Knife.git"
 
@@ -24,7 +28,6 @@ git add fileC.html
 git add fileD.html
 git commit -m "Implemented another feature EFG"
 
-git commmit -m "Added README.md" --> Finally makes the changes made into a concrete iteration.
+git commit -m "Added README.md" --> Makes the changes that were staged into a concrete iteration.
 
-
-git push origin [branch name] --> 
+git push origin [branch name] --> Finally, changes committed on local machine are PUSHED to remote repository 
