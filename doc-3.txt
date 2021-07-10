@@ -1,0 +1,16 @@
+This is a new document that wasn't originally in the 
+"Spoon-Knife" repository. 
+
+This file is found on main, but the rest of the information it contains
+can only be found on the "dev1" branch.
+
+git branch --> Shows you what your current branch looks like
+
+git branch <New branch name> --> Creates a new branch (Locally)
+
+git checkout <branch name> --> Change your current branch into 
+this one, so that all commits made under this branch remain only here.
+
+If you want to see a locally made branch show up in the remote repo.,
+make sure to checkout the new branch, add & commit, and then push
+it to the repo (Ex: git push origin dev1)
