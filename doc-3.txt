@@ -18,3 +18,7 @@ and push it to the repo
 git checkout dev1 
 git push origin dev1)
 
+There's also the command
+git checkout -b <branch name> --> that allows you to create a new branch
+and immediately check it out. It's basically a combination of the
+"git branch <...>" and "git checkout <...>" commands.
