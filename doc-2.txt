@@ -1,2 +1,8 @@
 This is a new document that wasn't originally in the 
 "Spoon-Knife" repository. 
+
+Files can be edited by other contributors or (in this case) by myself 
+through the remote repository. 
+
+Simply click a file on the <>Code page, click the pencil icon next to the file,
+And commit the changes made to the repository.
