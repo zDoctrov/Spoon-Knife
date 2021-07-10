@@ -6,3 +6,13 @@ through the remote repository.
 
 Simply click a file on the <>Code page, click the pencil icon next to the file,
 And commit the changes made to the repository.
+
+Note that when these remote changes occur, git on your local machine
+is unaware of them and doesn't tell you about them when you enter
+"git status".
+
+But more importantly, to get this new version downloaded onto your 
+local machine, use the command "git pull origin main".
+Its formatted the same way as PUSH but does the exact opposite.
+PUSH = (LOCAL MACHINE --> REMOTE REPOSITORY)
+PULL = (LOCAL MACHINE <-- REMOTE REPOSITORY)
