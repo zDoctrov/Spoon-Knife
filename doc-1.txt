@@ -1,0 +1,30 @@
+This is a new document that wasn't originally in the 
+"Spoon-Knife" repository.
+
+git clone --> Get your own copy of the repository by copying and pasting "git@github.com:zDoctrov/Spoon-Knife.git"
+
+git add --> "Stages files", making them a part of the next commit you make
+
+By using the "git add ." to affect every new file or the "git add doc-1.txt" 
+to effect only the doc-1.txt file, we have staged the file to be committed.
+
+Staging is required before committing your changes to the main repository, as 
+it separates logically unrelated edits.
+
+for example, if you have 4 files fileA.html, fileB.html, fileC.html, and fileD.html
+and files A & B are closely related and both completed at the same time before files C & D,
+You'd want to commit changes pertaining to only A & B:
+git add fileA.html
+git add fileB.html
+git commit -m "Implemented new feature XYZ"
+
+Only after you complete C & D afterwards would you want to consider staging
+them to be a part of the next commit
+git add fileC.html
+git add fileD.html
+git commit -m "Implemented another feature EFG"
+
+git commmit -m "Added README.md" --> Finally makes the changes made into a concrete iteration.
+
+
+git push origin [branch name] --> 
